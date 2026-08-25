@@ -1,349 +1,474 @@
 # Education Operations Analytics
 
-## Data Management & Business Analytics Project for an Online Language Education Organization
+## 在线语言教育机构运营数据分析与管理优化项目
 
-
-## Project Overview
-
-This project explores how an online language education organization can improve operational efficiency through better data organization, database design, and business analytics.
-
-The project is based on a real operational environment where different teams manage daily activities through Excel / Google Sheets, including:
-
-- Marketing customer acquisition;
-- Sales leads and enrollment;
-- Student management;
-- Teacher scheduling;
-- Lesson tracking;
-- Student retention.
-
-At the early stage of the business, spreadsheet-based management provides flexibility and allows teams to quickly adapt to changing requirements.
-
-However, as the number of students, teachers, courses, and operational records increases, Excel gradually becomes responsible for multiple roles:
-
-- Data storage;
-- Workflow management;
-- Issue tracking;
-- Performance evaluation;
-- Monthly reporting.
-
-This creates challenges in:
-
-- Data consistency;
-- Information retrieval;
-- Cross-team collaboration;
-- Historical tracking;
-- Business analysis.
-
+[中文](README.md) | [English](README_EN.md)
 
 ---
 
-# Business Context
+# 项目简介
 
-The organization currently operates through several teams:
+本项目基于在线语言教育机构的真实运营场景，探索如何通过**数据整理、数据建模和业务分析方法**，优化日常运营流程，并支持业务决策。
 
-## Marketing Team
+项目关注的问题并不是单纯的数据分析，而是从实际业务流程出发：
 
-Responsible for:
+> 当教育机构随着学生数量、教师数量和课程规模不断增长，原本依赖 Excel / Google Sheets 的管理方式逐渐变得复杂时，如何通过结构化的数据管理方式提升运营效率。
 
-- Social media customer acquisition;
-- Advertisement performance tracking;
-- Customer inquiry records.
+项目主要覆盖以下业务环节：
 
-
-## Sales Team
-
-Responsible for:
-
-- Customer communication;
-- Trial classes;
-- Level assessments;
-- Enrollment conversion.
-
-
-## Academic Operations Team
-
-Responsible for:
-
-- Student information;
-- Teacher assignment;
-- Course scheduling;
-- Lesson records;
-- Attendance tracking.
-
+- Marketing（市场获客）
+- Sales（销售转化）
+- Academic Operations（教务运营）
+- Retention（学生留存）
 
 ---
 
-# Project Motivation
+# 项目背景
 
-The project started from a practical operational question:
+在线语言教育机构通常由多个团队共同完成学生生命周期管理。
 
-> How can an education organization manage increasing amounts of operational data more efficiently?
+## Marketing
 
-During the review of existing workflows, several challenges were identified:
+负责：
 
-- Student information exists across multiple Excel files;
-- Different teams maintain different versions of information;
-- Many operational processes rely on employee experience;
-- Monthly reports require manual aggregation;
-- Important business indicators cannot be generated efficiently.
-
-Therefore, the project focuses on understanding the current workflow first, then designing a more structured data solution.
-
+- 社交媒体内容运营
+- 广告投放
+- 客户咨询获取
+- 渠道效果记录
 
 ---
 
-# Project Objectives
+## Sales
 
-## 1. Understand Current Data Environment
+负责：
 
-Identify:
-
-- Existing operational files;
-- Data owners;
-- Business purposes;
-- Relationships between datasets.
-
-
-## 2. Improve Data Organization
-
-Explore how to:
-
-- Standardize important fields;
-- Reduce duplicated information;
-- Define clearer business entities;
-- Improve data consistency.
-
-
-## 3. Support Business Analytics
-
-Build a foundation for analyzing:
-
-### Marketing
-
-- Customer acquisition channels;
-- Advertisement effectiveness;
-- Lead quality.
-
-
-### Sales
-
-- Trial conversion rate;
-- Sales performance;
-- Customer conversion process.
-
-
-### Academic Operations
-
-- Student growth;
-- Teacher workload;
-- Course utilization.
-
-
-### Retention
-
-- Student engagement;
-- Renewal behavior;
-- Potential factors affecting retention.
-
+- 客户沟通
+- 试听安排
+- 等级测试
+- 报名转化
 
 ---
 
-# Project Workflow
+## Academic Operations
 
-The project follows a real-world data analyst workflow:
+负责：
 
+- 学生信息管理
+- 教师匹配
+- 课程安排
+- 课程记录
+- 出勤管理
 
+---
 
+在业务初期，Excel / Google Sheets 具有灵活、低成本的优势，可以快速支持日常运营。
+
+但随着业务规模扩大，Excel 逐渐承担越来越多功能：
+
+- 数据存储
+- 工作流程管理
+- 异常事件追踪
+- 教师评价
+- 月度运营统计
+
+因此逐渐出现以下问题：
+
+- 数据分散在多个文件中
+- 不同部门维护不同版本的信息
+- 字段命名和分类缺少统一标准
+- 数据统计依赖人工整理
+- 历史信息查询困难
+
+---
+
+# 项目目标
+
+## 1. 梳理当前业务数据环境
+
+分析：
+
+- 当前使用的数据表
+- 数据维护部门
+- 数据用途
+- 不同数据之间的关系
+
+建立：
+
+- Data Inventory（数据资产清单）
+- Data Dictionary（数据字典）
+
+---
+
+## 2. 分析当前数据管理问题
+
+### 数据分散
+
+例如，一个学生的信息可能同时存在：
+
+- 客户咨询记录
+- 试听记录
+- 报名记录
+- 学生信息表
+- 课程记录表
+- 续费记录
+
+---
+
+### 数据重复维护
+
+同一业务信息可能由多个团队重复记录。
+
+可能导致：
+
+- 信息更新不同步
+- 数据统计不一致
+- 人工检查成本增加
+
+---
+
+### 数据标准化不足
+
+例如课程类型可能存在：
+
+```
+1V1
+私教
+一对一
+VIP课程
+```
+
+需要建立统一分类标准。
+
+---
+
+# 数据模型设计
+
+根据业务流程设计：
+
+- 数据实体
+- 表之间关系
+- 数据库结构
+
+主要业务实体包括：
+
+| Entity | Description |
+|---|---|
+| Student | 学生信息 |
+| Teacher | 教师信息 |
+| Course | 课程类型 |
+| Lesson | 单节课程记录 |
+| Lead | 客户线索 |
+| Enrollment | 报名记录 |
+
+---
+
+# 业务分析方向
+
+## Marketing Analytics
+
+分析：
+
+- 不同渠道带来的客户数量
+- 广告和内容效果
+- 客户来源质量
+
+---
+
+## Sales Analytics
+
+分析：
+
+- 试听转化率
+- 销售跟进效率
+- 不同来源客户转化情况
+
+---
+
+## Academic Operations Analytics
+
+分析：
+
+- 学生增长趋势
+- 教师工作量
+- 课程资源利用情况
+- 学生出勤情况
+
+---
+
+## Retention Analytics
+
+分析：
+
+- 学生学习参与情况
+- 续费情况
+- 影响长期学习的因素
+
+---
+
+# 项目流程
+
+本项目按照实际 Data Analyst 工作流程推进：
+
+```
 Phase 0
-Project Background & Requirement Understanding
+项目定义
+(Project Scoping)
 
-    ↓
+        ↓
 
 Phase 1
-Current Workflow and Data Audit
+当前业务流程与数据审计
+(Current State Assessment)
 
-    ↓
+        ↓
 
 Phase 2
-Data Modeling & Database Design
+数据建模
+(Data Modeling)
 
-    ↓
+        ↓
 
 Phase 3
-Data Cleaning & ETL Pipeline
+数据清洗与 ETL
+(Data Cleaning & ETL)
 
-    ↓
+        ↓
 
 Phase 4
-SQL Analysis & Dashboard Development
+SQL 分析与 Dashboard
+(SQL Analysis & Visualization)
 
-    ↓
+        ↓
 
 Phase 5
-Business Insights & Recommendations
-
-
-
----
-
-# Current Progress
-
-## Completed
-
-### Project Scoping
-
-- Business background analysis;
-- Operational problem identification;
-- Project scope definition.
-
-
-### Current Workflow Assessment
-
-Documented:
-
-- Marketing data workflow;
-- Sales workflow;
-- Academic operation workflow;
-- Existing Excel-based management process.
-
-
-### Data Audit
-
-Identified:
-
-- Data duplication;
-- Missing relationships;
-- Inconsistent categories;
-- Manual reporting processes.
-
+业务洞察与优化建议
+(Business Insights)
+```
 
 ---
 
-## In Progress
+# 当前进度
 
-### Data Inventory
+## Phase 0：项目定义 ✅
 
-Creating:
+已完成：
 
-- Data source overview;
-- Dataset ownership;
-- Update frequency;
-- Data granularity.
-
-
-### Data Modeling
-
-Planning:
-
-- Entity relationships;
-- Database schema;
-- ER diagram.
-
+- 项目背景分析
+- 业务问题梳理
+- 项目目标定义
+- 项目范围确定
 
 ---
 
-# Repository Structure
+## Phase 1：当前流程与数据审计 🚧
 
+正在进行：
 
+### Marketing Data
 
+包括：
+
+- 小红书客户咨询记录
+- 内容运营统计
+
+---
+
+### Sales Data
+
+包括：
+
+- 试听记录
+- 等级测试记录
+- 报名记录
+
+---
+
+### Academic Data
+
+包括：
+
+- 学生信息
+- 教师信息
+- 课程记录
+- 出勤记录
+
+---
+
+### Operational Data
+
+包括：
+
+- 异常事件记录
+- 教师月度评价
+- 月度运营汇总
+
+---
+
+# 项目结构
+
+```
 Education-Operations-Analytics/
 
-│
 ├── README.md
-│
+├── README_EN.md
+
 ├── docs/
-│ ├── 01_Project_Overview.md
-│ ├── 02_Current_State_Assessment.md
-│ ├── 03_Data_Audit_and_Findings.md
-│ ├── 04_Data_Inventory.xlsx
-│ └── 05_Data_Dictionary.xlsx
-│
+│   ├── 01_Project_Overview.md
+│   ├── 02_Current_State_Assessment.md
+│   ├── 03_Data_Audit_and_Findings.md
+│   ├── 04_Data_Inventory.xlsx
+│   └── 05_Data_Dictionary.xlsx
+
 ├── data/
-│ ├── raw/
-│ ├── processed/
-│ └── sample/
-│
+│   ├── raw/
+│   ├── processed/
+│   └── sample/
+
 ├── sql/
-│ ├── schema.sql
-│ └── analysis/
-│
+│   ├── schema.sql
+│   └── analysis/
+
 ├── notebooks/
-│
+
 └── dashboard/
-└── screenshots/
-
-
+    └── screenshots/
+```
 
 ---
 
-# Tech Stack
+# 技术栈
 
-## Data Management
+## 数据处理
 
 - Excel / Google Sheets
-- SQL Database Design
-
-
-## Data Analysis
-
 - SQL
 - Python
 - Pandas
 
+---
 
-## Visualization
+## 数据建模
 
-- Power BI / Tableau
+- Entity Relationship Diagram (ERD)
+- Relational Database Design
 
+---
 
-## Documentation
+## 数据分析
 
+- SQL Query
+- 用户转化分析
+- 留存分析
+- 运营指标分析
+
+---
+
+## 数据可视化
+
+- Power BI
+
+---
+
+## 项目管理
+
+- Git
+- GitHub
 - Markdown
-- Git / GitHub
-
 
 ---
 
-# Data Privacy
+# 数据隐私说明
 
-The original operational data contains private information, including:
+由于原始业务数据包含敏感信息：
 
-- Student information;
-- Parent contact information;
-- Teacher information;
-- Internal operational records.
+- 学生信息
+- 家长联系方式
+- 教师信息
+- 内部运营记录
 
-Therefore:
+本项目不会上传真实业务数据。
 
-- Real business data will not be uploaded;
-- Public repository will only contain anonymized or simulated datasets;
-- Sensitive information will be removed before analysis.
+公开仓库中的数据将：
 
+- 使用模拟数据
+- 进行匿名化处理
+- 删除敏感字段
 
 ---
 
-# Future Development
+# 后续计划
 
-Future phases will include:
+## Data Modeling
 
-- Designing relational database schema;
-- Building ETL pipeline;
-- Creating analytical SQL queries;
-- Developing business dashboards;
-- Generating operational insights.
+计划完成：
 
+- 数据库 Schema 设计
+- ER Diagram
+- Fact Table / Dimension Table 划分
+
+---
+
+## Data Pipeline
+
+计划完成：
+
+- 数据清洗
+- 字段标准化
+- ETL 流程设计
+
+---
+
+## Analytics Dashboard
+
+计划建立：
+
+- Marketing Dashboard
+- Sales Dashboard
+- Academic Dashboard
+
+---
+
+# 项目总结
+
+本项目希望展示一个完整的数据分析流程：
+
+```
+业务问题
+
+↓
+
+现有流程分析
+
+↓
+
+数据审计
+
+↓
+
+数据建模
+
+↓
+
+SQL分析
+
+↓
+
+业务洞察
+```
+
+而不是仅关注单次数据分析结果。
 
 ---
 
 # Author
 
-**Yiye Chen**
+## Yiye Chen
 
-Data Analytics / Business Intelligence Project
+Data Analytics / Business Intelligence Portfolio Project
 
-Focus:
+关注方向：
 
-- Data Modeling
-- SQL Analytics
+- Data Analysis
+- SQL
 - Business Intelligence
 - Education Operations Analytics
