@@ -57,23 +57,14 @@ Renewal / Completion
 
 不同阶段由不同团队参与：
 
-  ------------------------------------------------------------------------------
-  Stage                   Responsible Team        Main Activity
-  ----------------------- ----------------------- ------------------------------
-  Marketing Acquisition   Marketing / Operations  内容运营、广告投放、获取咨询
-
-  Customer Inquiry        Sales                   客户沟通、需求确认
-
-  Trial / Assessment      Sales + Academic        试听安排、等级测试
-
-  Enrollment              Sales + Academic        报名确认、课程安排
-
-  Course Delivery         Academic Operations     排课、教师协调、课程记录
-
-  Renewal                 Sales + Academic        续费跟进
-  ------------------------------------------------------------------------------
-
-------------------------------------------------------------------------
+| Stage | Responsible Team | Main Activity |
+|---|---|---|
+| Marketing Acquisition | Marketing / Operations | 内容运营、广告投放、获取咨询 |
+| Customer Inquiry | Sales | 客户沟通、需求确认 |
+| Trial / Assessment | Sales + Academic | 试听安排、等级测试 |
+| Enrollment | Sales + Academic | 报名确认、课程安排 |
+| Course Delivery | Academic Operations | 排课、教师协调、课程记录 |
+| Renewal | Sales + Academic | 续费跟进 |
 
 # 3. Marketing Acquisition Workflow
 
@@ -599,16 +590,16 @@ Lesson Schedule
 
 ------------------------------------------------------------------------
 
-# 11. Private Course vs Group Class
+# 11. 私教课程 vs 班课
 
-                 Private Course                  Group Class
-  -------------- ------------------------------- --------------------
-  管理核心       学生个人需求                    班级整体
-  人数           1-4人                           多学生
-  排课方式       高度灵活                        相对固定
-  时间变化       高频                            较低
-  主要挑战       时间协调                        班级稳定
-  数据模型方向   Course + Student Relationship   Class + Enrollment
+| 对比维度 | 私教课程 | 班课 |
+|---|---|---|
+| 管理核心 | 学生个人需求 | 班级整体 |
+| 人数 | 1-4人 | 多学生 |
+| 排课方式 | 高度灵活 | 相对固定 |
+| 时间变化 | 高频 | 较低 |
+| 主要挑战 | 时间协调 | 班级稳定 |
+| 数据模型方向 | 学生-课程关系 | 班级-学生关系 |
 
 ------------------------------------------------------------------------
 
