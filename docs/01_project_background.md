@@ -66,24 +66,13 @@ Renewal / Completion
 
 不同业务阶段会产生不同类型的数据：
 
-  -----------------------------------------------------------------------
-  Business Stage                      Generated Data
-  ----------------------------------- -----------------------------------
-  Marketing Acquisition               Channel, Account, Post, Impression,
-                                      Click
-
-  Customer Inquiry                    Customer Information, Inquiry
-                                      Event, Follow-up Status
-
-  Trial Lesson                        Trial Date, Teacher, Level
-                                      Assessment
-
-  Enrollment                          Course Package, Student Information
-
-  Course Delivery                     Student, Teacher, Lesson, Schedule
-
-  Renewal                             Remaining Hours, Renewal Status
-  -----------------------------------------------------------------------
+| 业务阶段 | 产生的数据 |
+| --- | --- |
+| 市场获客（Marketing Acquisition） | 获客渠道、账号、帖子、曝光量、点击量 |
+| 客户咨询（Customer Inquiry） | 客户信息、咨询记录、跟进状态 |
+| 试听课（Trial Lesson） | 试听日期、试听教师、等级评估 |
+| 正式报名（Enrollment） | 课程套餐、学生信息 |
+| 课程交付（Course Delivery） | 学生、教师、课程、排课信息 |
 
 这些数据由不同团队产生，并服务于不同业务目的。
 
