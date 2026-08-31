@@ -1,0 +1,11 @@
+﻿employee_id,employee_name,role,active_status
+EMP001,Sofia_Sales,销售,在岗
+EMP002,Leo_Sales,销售,在岗
+EMP003,Mia_Sales,销售,在岗
+EMP004,Cielo_Academic,教务,在岗
+EMP005,Iris_Academic,教务,在岗
+EMP006,Nora_Academic,教务,在岗
+EMP007,Alex_Operations,运营,在岗
+EMP008,May_Operations,运营,在岗
+EMP009,Eric_Operations,运营,在岗
+EMP010,Manager,管理,在岗

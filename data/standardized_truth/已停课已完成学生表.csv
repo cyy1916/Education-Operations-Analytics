@@ -1,0 +1,8 @@
+﻿student_status_id,student_id,student_name,course_type,teacher_id,academic_id,sales_id,country,timezone,age,student_status,end_date,remaining_hours,reason,course_record_link,renewal_status,remark
+STS00022,STU0021,Alfred_122,班课,T001,EMP004,EMP002,英国,Europe/London,15,已完成,2026-08-23,5,暂时停学,https://example.invalid/course/STU0021,是,
+STS00029,STU0027,Crystal_112,班课,T010,EMP005,EMP001,中国,UTC+8,12,已停课,2026-08-10,0,,https://example.invalid/course/STU0027,是,
+STS00035,STU0031,Snow_019,1V1,T018,EMP006,EMP003,西班牙,Europe/Madrid,21,已停课,2026-08-02,8,时间不合适,https://example.invalid/course/STU0031,否,
+STS00039,STU0034,Ethan_130,班课,T009,EMP005,EMP002,中国,UTC+8,38,已停课,2026-08-21,0,课程体验,https://example.invalid/course/STU0034,否,
+STS00045,STU0038,Lydia_064,1V1,T012,EMP004,EMP003,澳大利亚,Australia/Sydney,13,已停课,2026-06-27,8,暂时停学,https://example.invalid/course/STU0038,否,
+STS00051,STU0043,Larry_061,班课,T007,EMP005,EMP002,新加坡,UTC+8,31,已完成,2026-07-05,2,时间不合适,https://example.invalid/course/STU0043,否,
+STS00067,STU0058,Wilson_016,班课,T004,EMP004,EMP003,西班牙,Europe/Madrid,29,已停课,2026-07-01,2,完成课程,https://example.invalid/course/STU0058,是,

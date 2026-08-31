@@ -1,0 +1,5 @@
+﻿account_id,account_name,platform,operator_id,active_status
+ACC001,SpanishEdu_1,小红书,EMP007,在用
+ACC002,SpanishEdu_2,小红书,EMP008,在用
+ACC003,SpanishEdu_3,小红书,EMP009,在用
+ACC004,SpanishEdu_4,小红书,EMP007,暂停

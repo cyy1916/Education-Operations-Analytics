@@ -1,0 +1,8 @@
+﻿学生姓名,课程形式,教师,教务负责人,销售负责人,国家,学生时差,年龄,学生状态,结束日期,剩余课时,结束原因,课程记录链接,是否续费,备注
+Alfred_122,group class,Pabl,Cielo_Academic ,Leo_Sales,英国,Europe/London,15,已完成,2026-08-23,5,,https://example.invalid/course/STU0021,是,
+Crystal_112,group class,Carmen,IRIS_ACADEMIC,Sofia_Sales,中国,UTC+8,12,已停课,2026-08-10,0,,https://example.invalid/course/STU0027,是,
+Snow_019 ,私教,Carlos,Nora_Academic,Mia_Sales,西班牙,Europe/Madrid,21,已停课,2026-08-02,8,时间不合适,https://example.invalid/course/STU0031,否,
+Ethan_130,班课,Anna,Iris_Academic,Leo_Sales,中国,UTC+8,38,停课,2026/08/21,0,课程体验,https://example.invalid/course/STU0034,否,
+Lydia_064 ,一对一,Miguel ,Cielo_Academic,Mia_Sales,澳大利亚,Australia/Sydney,13,已停课,2026/06/27,8,暂时停学,https://example.invalid/course/STU0038,否,
+Larry_061,group class,Raul,Iris_Academic,Leo_Sales,新加坡,UTC+8,31,已完成,2026-07-05,2,时间不合适,https://example.invalid/course/STU0043,否,
+Wilson_016,小班,Elena,Cielo_Academic,Mia_Sales,西班牙,Europe/Madrid,29,已停课,2026/07/01,2,完成课程,https://example.invalid/course/STU0058,是,

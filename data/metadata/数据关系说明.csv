@@ -1,0 +1,17 @@
+﻿主表,关联字段,关联表,关系
+运营账号表,account_id,广告帖子表,1:N
+广告帖子表,post_id,客户咨询事件表,1:N
+客户信息表,customer_id,客户咨询事件表,1:N
+客户信息表,customer_id,试听测试表,1:N
+学生信息表,student_id,试听测试表,1:N 可选
+学生信息表,student_id,报名记录表,1:N
+私教课程表,private_course_id,私教学生关系表,1:N
+班课信息表,class_id,学生班级关系表,1:N
+教师信息表,teacher_id,教师可用时间表,1:N
+排课记录表,schedule_id,排课变更历史表,1:N
+排课记录表,schedule_id,课程记录表,1:N
+课程记录表,lesson_id,课程出勤表,1:N
+学生信息表,student_id,学生状态历史表,1:N
+教师信息表,teacher_id,教师状态历史表,1:N
+学生信息表,student_id,续费记录表,1:N
+异常反馈表,related_schedule_id,排课记录表,N:1
