@@ -12,6 +12,7 @@
 班课信息表.class_id unique = True
 学生班级关系表.class_student_id unique = True
 教师可用时间表.availability_id unique = True
+教师月度可用时间快照表.snapshot_id unique = True
 排课记录表.schedule_id unique = True
 排课变更历史表.schedule_change_id unique = True
 课程记录表.lesson_id unique = True

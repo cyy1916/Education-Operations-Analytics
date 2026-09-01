@@ -1,9 +1,11 @@
 ﻿课程对象,课程模式,教师,当前课程时间,确认状态,教务确认人,备注
-PC003,私教,Sara,2026-06-13 11:00,时间不行,Nora_Academic,曾调整
-PC006,私教,Elena,1月29日 10:00,确认,Cielo_Academic,曾调整
-PC007,私教,Pilar,2026-07-10 10:00,需重排,Nora_Academic,曾调整
-PC009,私教,Carlos,2026/01/17 17:00,确认,Nora_Academic,
-PC011,私教,Alba,7月8日 11:00,conflict,Nora_Academic,曾调整
-PC018,私教,Claudia,2026/04/16 09:00,已确认,Nora_Academic,
-CLS001,班课,Diego,2026/02/05 15:00,OK,Cielo_Academic,曾调整
-CLS009,班课,Elena,2026/02/26 10:00,OK,Nora_Academic,曾调整
+PC004,私教,Rocio,2026-02-09 18:00,确认,Cielo_Academic,
+PC009,私教,Carmen,9月5日 10:00,done,Iris_Academic,曾调整
+PC012,私教,Diego,6月6日 21:00,conflict,Iris_Academic,
+PC016,私教,Natalia,2026-01-03 18:00,OK,Iris_Academic,
+PC029,私教,Raul,7月2日 16:00,OK,Cielo_Academic,
+PC030,私教,Laura,2026-07-16 10:00,conflict,Cielo_Academic,曾调整
+PC031,私教,Carmen,7月25日 10:00,OK,Iris_Academic,曾调整
+CLS001,班课,Elena,2025-05-21 08:00,时间不行,Nora_Academic,曾调整
+CLS009,班课,Daniel,2025/05/08 13:00,需重排,Nora_Academic,曾调整
+CLS017,班课,Rocio,2025/04/04 12:00,冲突,Iris_Academic,

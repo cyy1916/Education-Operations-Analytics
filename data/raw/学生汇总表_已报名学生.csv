@@ -1,57 +1,114 @@
 ﻿学生姓名,国家,年龄,上课形式,销售负责人,教师,教务负责人,学生及家长性格特点,课程记录链接,下月课程更新状态,是否需要续费
-Wilson_116,西班牙,10,1V4,Mia_Sales,Elena,Iris_Academic,沟通积极,https://example.invalid/records/STU0001,已更新,否
-Lucy_106,新加坡,27,1V1,Sofia_Sales,Anna,Iris_Academic,时间变化较多,https://example.invalid/records/STU0002,已更新,是
-Lawrence_124,美国,39,班课,Sofia_Sale,Elena,Nora_Academic,重视考试,https://example.invalid/records/STU0003,已更新,是
-Ella_142,美国,8,私教,Sofia_Sales,Javier,Iris_Academic,重视考试,https://example.invalid/records/STU0004,已更新,否
-Ivy_039,澳大利亚,40,一对一,Leo_Sales,Carlos,Cielo_Academic,要求较严格,https://example.invalid/records/STU0005,无需更新,待确认
-Henry_090,澳大利亚,20,小班,Mia_Sales,Diego,Iris_Academic,重视考试,https://example.invalid/records/STU0006,无需更新,否
-Noah_028,英国,34,班课,Leo_Sales,Carmen,Nora_Academic,,https://example.invalid/records/STU0007,无需更新,是
-Grace_137,西班牙,29,小班,Mia_Sales ,Carmen,Cielo_Academic,时间变化较多,https://example.invalid/records/STU0008,已更新,否
-AVA_085,中国,9,group class,Sofia_Sales,Raul,Nora_Academic,沟通积极,https://example.invalid/records/STU0009,已更新,否
-Lydia_114,美国,20,小班,Sofia_Sales,Diego,Iris_Academic,要求较严格,https://example.invalid/records/STU0010,已更新,待确认
-Jason_044,英国,33,一对三,Leo_Sales,Anna,Iris_Academic,,https://example.invalid/records/STU0011,无需更新,否
-Alfred_172,中国,19,group class,Leo_Sales,Miguel,Iris_Academic,沟通积极,https://example.invalid/records/STU0012,已更新,是
-Luna_133,澳大利亚,9,小班,Sofia_Sales,Anna,Cielo_Academi,要求较严格,https://example.invalid/records/STU0013,已更新,否
-Kevin_047,中国,16,四人私教,Sofia_Sales,Sara,Nora_Academic,要求较严格,https://example.invalid/records/STU0014,待更新,否
-Elva_163,新加坡,26,班课,Leo_Sales,Elena,Nora_Academic,时间变化较多,https://example.invalid/records/STU0015,已更新,否
-Mason_038,加拿大,18,1V2,Leo_Sales,Claudia,Nora_Academic,,https://example.invalid/records/STU0016,待更新,否
-Chloe_131,新加坡,17,group class,Mia_Sales,Diego,Cielo_Academic,时间变化较多,https://example.invalid/records/STU0017,无需更新,否
-Luna_083,加拿大,32,小班,Sofia_Sales,Diego,Cielo_Academic,沟通积极,https://example.invalid/records/STU0018,已更新,是
-Larry_161,西班牙,41,group class,Mia_Sales,Lucia,Nora_Academic,时间变化较多,https://example.invalid/records/STU0019,无需更新,是
-Leo_07,加拿大,13,小班,Leo_Sales,Raul,Cielo_Academic,时间变化较多,https://example.invalid/records/STU0020,已更新,待确认
-Luna_033,新加坡,14,班课,Mia_Sales,Pablo,Cielo_Academic,要求较严格,https://example.invalid/records/STU0022,无需更新,否
-Sofia_105,英国,15,私教,MIA_SALES,Alba,Cielo_Academic,,https://example.invalid/records/STU0023,已更新,否
-Lawrence_074,澳大利亚,17,group class,Sofia_Sales,Elena,Iris_Academic,要求较严格,https://example.invalid/records/STU0024,无需更新,否
-Leo_12,新加坡,29,1V4,Leo_Sales,Elena,Cielo_Academic,时间变化较多,https://example.invalid/records/STU0025,待更新,否
-Grace_037,德国,21,私教,Sofia_Sales,Daniel,Iris_Academic,要求较严格,https://example.invalid/records/STU0026,无需更新,是
-Anna_151,澳大利亚,21,班课,Sofia_Sales,Miguel,Cielo_Academic,,https://example.invalid/records/STU0028,待更新,待确认
-Tiger_110,加拿大,31,一对四,Mia_Sales,Elena,IRIS_ACADEMIC,时间变化较多,https://example.invalid/records/STU0029,已更新,待确认
-Liam_041,美国,26,一对二,Mia_Sales,Claudia,Cielo_Academic,重视考试,https://example.invalid/records/STU0030,已更新,是
-Mia_175,英国,18,小班,Mia_Sales,Miguel,Cielo_Academic,,https://example.invalid/records/STU0032,已更新,否
-Ivy_089,德国,13,班课,Mia_Sales,Diego,IRIS_ACADEMIC,沟通积极,https://example.invalid/records/STU0033,已更新,否
-TOMMY_004,英国,33,四人私教,Leo_Sales,Sara,Cielo_Academic,沟通积极,https://example.invalid/records/STU0035,done,待确认
-Luis_003,西班牙,38,班课,Mia_Sales,Diego,Cielo_Academic,要求较严格,https://example.invalid/records/STU0036,已更新,待确认
-Noah_128,英国,31,1V4,Mia_Sales,Elena,Iris_Academic,时间变化较多,https://example.invalid/records/STU0037,待更新,否
-Lucas_002,澳大利亚,19,四人私教,Sofia_Sales,Sara,Nora_Academic,要求较严格,https://example.invalid/records/STU0039,待更新,待确认
-Larry_011,中国,12,group class,Leo_Sales,Miguel,Iris_Academic,,https://example.invalid/records/STU0040,待更新,否
-Henry_040,美国,20,班课,Mia_Sale,Diego,Iris_Academic,沟通积极,https://example.invalid/records/STU0041,已更新,否
-Alfred_022,中国,11,私教,Sofia_Sales,Raul,CIELO_ACADEMIC,,https://example.invalid/records/STU0042,无需更新,是
-Hannah_015,西班牙,25,group class,Sofia_Sales,Lucia,Cielo_Academic,重视考试,https://example.invalid/records/STU0044,无需更新,待确认
-Jerry_117,德国,27,group class,Mia_Sales,Miguel,Cielo_Academic,沟通积极,https://example.invalid/records/STU0045,已更新,待确认
-Etta_121,澳大利亚,38,私教,Mia_Sales,Sara,Iris_Academic,要求较严格,https://example.invalid/records/STU0046,无需更新,否
-David_150,美国,8,1V2,Mia_Sales,Pablo,Iris_Academic,时间变化较多,https://example.invalid/records/STU0047,无需更新,否
-Lucy_056,英国,8,group class,Mia_Sales,Elena,Iris_Academic,,https://example.invalid/records/STU0048,done,是
-Elynn_123,美国,13,1V2,Sofia_Sales,Miguel,Iris_Academic,重视考试,https://example.invalid/records/STU0049,已更新,是
-Ivy_139,加拿大,42,小班,Sofia_Sales,Lucia,Cielo_Academic,重视考试,https://example.invalid/records/STU0050,无需更新,否
-Daniel_134,西班牙,39,一对三,Leo_Sales ,Anna,Iris_Academic,时间变化较多,https://example.invalid/records/STU0051,已更新,否
-Snow_119,美国,19,双人私教,Mia_Sales,Pablo,Cielo_Academic,沟通积极,https://example.invalid/records/STU0052,已更新,否
-Brian_009,英国,9,1V3,Leo_Sales,Anna,Cielo_Academic,重视考试,https://example.invalid/records/STU0053,已更新,否
-Ryan_132,西班牙,28,班课,Sofia_Sales,Elena,Cielo_Academic,要求较严格,https://example.invalid/records/STU0054,待更新,待确认
-Wilson_166,西班牙,10,1V1,Sofia_Sales,Pilar,Iris_Academic,沟通积极,https://example.invalid/records/STU0055,已更新,否
-Elynn_023,西班牙,42,1V2,Sofia_Sales,Miguel,Nora_Academic,沟通积极,https://example.invalid/records/STU0056,已更新,否
-Daniel_034,澳大利亚,41,一对四,Leo_Sales,Sara,Nora_Academic,沟通积极,https://example.invalid/records/STU0057,已更新,否
-Lucy_056,英国,8,group class,Mia_Sales,Elena,Iris_Academic,,https://example.invalid/records/STU0048,done,是
-Noah_028,英国,34,班课,Leo_Sales,Carmen,Nora_Academic,,https://example.invalid/records/STU0007,无需更新,是
-Ivy_139,加拿大,42,小班,Sofia_Sales,Lucia,Cielo_Academic,重视考试,https://example.invalid/records/STU0050,无需更新,否
-Wilson_166,西班牙,10,私教,Sofia_Sales,Pilar,Iris_Academic,沟通积极,https://example.invalid/records/STU0055,已更新,否
-WILSON_116,西班牙,10,1V4,Mia_Sales,Elena,Iris_Academic,沟通积极,https://example.invalid/records/STU0001,已更新,否
+Jack_218（教务）,美国,31,小班,Sofia_Sales,Pilar,Nora_Academic,要求较严格,https://example.invalid/records/STU0001,已更新,否
+Isabela_520,英国,25,小班,SofiaSales,Pilar,CieloAcademic,重视考试,https://example.invalid/records/STU0002,已更新,否
+Alice_099,西班牙,24,单人私教,Sofia_Sales,Sandra,Iris_Academic（教务）,沟通积极,https://example.invalid/records/STU0003,已更新,否
+Ava135,英国,8,group class,Sofia_Sales,Rocio,Iris_Academic,时间变化较多,https://example.invalid/records/STU0004,待更新,否
+Mia_325,澳大利亚,23,小班,Sofia_Sales,Natalia,Nora_Academic,重视考试,https://example.invalid/records/STU0005,无需更新,否
+Etta_321（教务）,德国,29,班课,MiaSales,Anna,NoraAcademic,时间变化较多,https://example.invalid/records/STU0007,已更新,否
+Sarah_398,英国,8,1V4,Leo_Sales,Pilar,Nora_Academic,,https://example.invalid/records/STU0009,已更新,否
+Hannah_165,澳大利亚,15,1V4,Mia_Sales,Pablo,IrisAcademic,重视考试,https://example.invalid/records/STU0010,待更新,是
+Daniel_034,新加坡,20,一对二,Leo_Sales,Sandra,Nora_Academic,,https://example.invalid/records/STU0011,已更新,否
+Hannah_265,加拿大,36,1V1,Mia_Sales,Natalia,Cielo_Academic,时间变化较多,https://example.invalid/records/STU0012,待更新,否
+Lydia264,德国,20,group class,MiaSales,Elena,Nora_Academic,要求较严格,https://example.invalid/records/STU0013,已更新,是
+Snow_519,加拿大,28,班课,MiaSales,Alba,Cielo_Academic,重视考试,https://example.invalid/records/STU0015,无需更新,待确认
+Sofia_355,加拿大,39,一对三,SofiaSales,Pilar,Iris_Academic,沟通积极,https://example.invalid/records/STU0016,已更新,是
+Mia_375,加拿大,30,group class,Leo_Sales,Anna,IrisAcademic,,https://example.invalid/records/STU0017,已更新,否
+Chloe_181,美国,25,1V1,Mia_Sales,Natalia,Cielo_Academic,重视考试,https://example.invalid/records/STU0018,done,是
+Etta071,中国,41,一对三,Mia_Sales（教务）,Sara,Nora_Academic,时间变化较多,https://example.invalid/records/STU0019,已更新,是
+Snow_119,加拿大,21,小班,Leo_Sales,Sara,IrisAcademic,沟通积极,https://example.invalid/records/STU0020,已更新,否
+Henry_090（教务）,中国,31,一对三,SofiaSales,Sara,Nora_Academic,要求较严格,https://example.invalid/records/STU0021,done,否
+Brian_259,西班牙,24,group class,Sofia_Sales,Rocio,Cielo_Academic,时间变化较多,https://example.invalid/records/STU0022,已更新,否
+Ella442,中国,9,单人私教,Leo_Sales,Natalia,Nora_Academic,,https://example.invalid/records/STU0023,已更新,待确认
+Nina_245,澳大利亚,26,小班,Mia_Sales,Pilar,IrisAcademic,时间变化较多,https://example.invalid/records/STU0024,待更新,待确认
+Sarah_298,新加坡,27,双人私教,Leo_Sales（教务）,Natalia（教务）,Iris_Academic,,https://example.invalid/records/STU0025,已更新,否
+Mia_475,英国,13,小班,Sofia_Sales,Sara,CieloAcademic,时间变化较多,https://example.invalid/records/STU0026,无需更新,否
+Tiger_010,新加坡,36,四人私教,Mia_Sales,Javier,Nora_Academic,时间变化较多,https://example.invalid/records/STU0028,待更新,是
+Crystal_362,新加坡,15,小班,Leo_Sales,Rocio,Iris_Academic,时间变化较多,https://example.invalid/records/STU0031,无需更新,是
+Leo_476,新加坡,19,group class,Sofia_Sales,Daniel,NoraAcademic,沟通积极,https://example.invalid/records/STU0032,已更新,否
+Eric_396,德国,38,私教,Mia_Sales,Carmen,Iris_Academic,要求较严格,https://example.invalid/records/STU0035,done,否
+Lucy_056,西班牙,40,班课,Leo_Sales,Anna,Nora_Academic,沟通积极,https://example.invalid/records/STU0036,done,否
+Oscar336,德国,11,group class,Sofia_Sales（教务）,Daniel,Nora_Academic,沟通积极,https://example.invalid/records/STU0038,无需更新,否
+Hannah215,美国,34,1V1,Leo_Sales,Consuelo（教务）,Iris_Academic,沟通积极,https://example.invalid/records/STU0039,已更新,否
+Henry340,新加坡,38,1V4,Leo_Sales,Pilar,Iris_Academic,要求较严格,https://example.invalid/records/STU0040,已更新,否
+Isabela_370,英国,36,班课,Sofia_Sales,Alba,NoraAcademic,沟通积极,https://example.invalid/records/STU0042,无需更新,否
+Daniel_234,德国,36,1V3,SofiaSales,Javier,Cielo_Academic,要求较严格,https://example.invalid/records/STU0043,无需更新,否
+Snow_269（教务）,新加坡,28,1V4,MiaSales,Pilar,CieloAcademic,沟通积极,https://example.invalid/records/STU0044,done,否
+Mason_388,美国,31,单人私教,Mia_Sales（教务）,Sara,Nora_Academic,,https://example.invalid/records/STU0046,已更新,否
+Mia_025,美国,8,双人私教,SofiaSales,Carmen,NoraAcademic,沟通积极,https://example.invalid/records/STU0047,已更新,否
+Patrick_007,西班牙,12,小班,Sofia_Sales,Anna,Nora_Academic,时间变化较多,https://example.invalid/records/STU0048,已更新,否
+Patrick_507（教务）,西班牙,27,小班,Sofia_Sales（教务）,Sara,Nora_Academic,时间变化较多,https://example.invalid/records/STU0050,已更新,否
+Xuan_058,澳大利亚,12,1V1,MiaSales,Laura,CieloAcademic,,https://example.invalid/records/STU0051,已更新,否
+Elva_213（教务）,中国,40,三人私教,MiaSales,Pilar,Cielo_Academic,要求较严格,https://example.invalid/records/STU0052,已更新,否
+Grace_437,新加坡,32,班课,Sofia_Sales,Rocio,Nora_Academic,时间变化较多,https://example.invalid/records/STU0053,无需更新,否
+Eric246,美国,14,单人私教,Mia_Sales,Sandra（教务）,Iris_Academic,,https://example.invalid/records/STU0054,已更新,否
+Wilson066,澳大利亚,29,班课,Sofia_Sales,Sara,IrisAcademic,时间变化较多,https://example.invalid/records/STU0055,待更新,待确认
+Anna_501,美国,9,一对一,Leo_Sales,Lucia,Nora_Academic,重视考试,https://example.invalid/records/STU0057,已更新,否
+Isabela_070（教务）,加拿大,22,小班,Mia_Sales,Pilar（教务）,Cielo_Academic,要求较严格,https://example.invalid/records/STU0062,已更新,否
+Mason_438,美国,30,group class,Leo_Sales,Raul,Iris_Academic,沟通积极,https://example.invalid/records/STU0065,已更新,否
+Jerry_217,美国,29,一对四,Sofia_Sales,Pablo,Iris_Academic,时间变化较多,https://example.invalid/records/STU0067,已更新,否
+Henry_190,新加坡,10,私教,Mia_Sales,Pilar,Cielo_Academic,,https://example.invalid/records/STU0068,已更新,否
+Elva313,澳大利亚,41,group class,Mia_Sales,Sara,IrisAcademic,要求较严格,https://example.invalid/records/STU0069,待更新,否
+Lucas_502,美国,8,1V2,Sofia_Sales,Diego,Cielo_Academic,要求较严格,https://example.invalid/records/STU0070,待更新,否
+Hannah_365,加拿大,14,班课,Mia_Sales,Miguel（教务）,Cielo_Academic,,https://example.invalid/records/STU0071,已更新,否
+Nina_345,西班牙,14,1V2,Mia_Sales,Carlos,Iris_Academic,沟通积极,https://example.invalid/records/STU0072,已更新,是
+Elynn_173（教务）,德国,16,group class,Mia_Sales,Pablo（教务）,Nora_Academic,重视考试,https://example.invalid/records/STU0075,已更新,待确认
+Liam_291,中国,18,小班,Mia_Sales（教务）,Anna,Nora_Academic,,https://example.invalid/records/STU0077,done,否
+Ivy_489,中国,34,小班,Sofia_Sales,Elena,Iris_Academic,,https://example.invalid/records/STU0081,待更新,否
+Tommy_304,英国,37,1V2,Leo_Sales,Rocio,Iris_Academic,,https://example.invalid/records/STU0082,已更新,否
+Olivia_429（教务）,英国,26,1V1,Mia_Sales（教务）,Carlos,Cielo_Academic（教务）,,https://example.invalid/records/STU0083,已更新,否
+Noah428,美国,39,1V1,Leo_Sales,Marina,Cielo_Academic,时间变化较多,https://example.invalid/records/STU0084,已更新,否
+Liam_241,澳大利亚,42,group class,Leo_Sales（教务）,Alba,CieloAcademic,,https://example.invalid/records/STU0085,已更新,否
+Henry_490（教务）,英国,38,班课,Leo_Sales,Sara,Iris_Academic,要求较严格,https://example.invalid/records/STU0088,done,否
+Liam_341,新加坡,18,一对三,Mia_Sales,Sara,Iris_Academic,时间变化较多,https://example.invalid/records/STU0091,已更新,否
+Lydia_514,德国,11,私教,Leo_Sales,Natalia,Cielo_Academic,沟通积极,https://example.invalid/records/STU0092,已更新,否
+Xuan_508,中国,39,小班,Leo_Sales,Rocio,Iris_Academic,时间变化较多,https://example.invalid/records/STU0093,无需更新,否
+Chloe_431,美国,16,1V4,Leo_Sales,Pablo,Cielo_Academic,沟通积极,https://example.invalid/records/STU0095,已更新,否
+Alfred_222,德国,19,group class,Leo_Sales,Anna,Iris_Academic,重视考试,https://example.invalid/records/STU0096,无需更新,否
+Liam_141,澳大利亚,15,私教,Sofia_Sales,Marina,Iris_Academic,时间变化较多,https://example.invalid/records/STU0098,待更新,待确认
+Jack118,澳大利亚,41,班课,Mia_Sales,Sandra,Cielo_Academic,要求较严格,https://example.invalid/records/STU0099,无需更新,否
+Ella_492,加拿大,31,小班,Sofia_Sales,Sara,NoraAcademic,重视考试,https://example.invalid/records/STU0100,无需更新,待确认
+Lydia_214,澳大利亚,13,1V2,Leo_Sales,Pilar,Iris_Academic（教务）,要求较严格,https://example.invalid/records/STU0102,无需更新,待确认
+Eric096,澳大利亚,31,group class,Sofia_Sales,Sara,Cielo_Academic,沟通积极,https://example.invalid/records/STU0104,已更新,否
+Ryan_182,德国,13,单人私教,Sofia_Sales,Carmen,Nora_Academic,,https://example.invalid/records/STU0105,待更新,否
+Lawrence_074,中国,13,group class,Mia_Sales（教务）,Daniel,Nora_Academic,重视考试,https://example.invalid/records/STU0106,已更新,否
+Brian_009,英国,25,group class,LeoSales,Sandra,Cielo_Academic,,https://example.invalid/records/STU0107,已更新,否
+Ella042,中国,20,三人私教,Mia_Sales,Pilar,CieloAcademic,时间变化较多,https://example.invalid/records/STU0108,已更新,否
+Tommy054,新加坡,16,1V2,Mia_Sales,Carlos,Cielo_Academic,重视考试,https://example.invalid/records/STU0109,已更新,待确认
+Luna_033,澳大利亚,16,小班,Mia_Sales,Alba,Iris_Academic,沟通积极,https://example.invalid/records/STU0111,done,否
+Liam_391,美国,35,班课,Sofia_Sales,Alba,NoraAcademic,时间变化较多,https://example.invalid/records/STU0113,无需更新,否
+Sarah_148,加拿大,32,班课,Sofia_Sales,Alba,Cielo_Academic,沟通积极,https://example.invalid/records/STU0115,已更新,是
+Jason_194,加拿大,15,小班,Sofia_Sales,Pablo,CieloAcademic,要求较严格,https://example.invalid/records/STU0116,无需更新,待确认
+Ivy_289（教务）,澳大利亚,30,一对三,Leo_Sales,Javier,IrisAcademic,沟通积极,https://example.invalid/records/STU0117,done,否
+Zoe_393,德国,8,小班,Leo_Sales,Sara,NoraAcademic,重视考试,https://example.invalid/records/STU0118,已更新,否
+Luna_233,英国,39,班课,Sofia_Sales（教务）,Alba,CieloAcademic,沟通积极,https://example.invalid/records/STU0119,已更新,是
+Kevin_347,加拿大,19,一对一,Leo_Sales,Rocio,CieloAcademic,沟通积极,https://example.invalid/records/STU0120,待更新,否
+David_200,英国,29,group class,Leo_Sales（教务）,Alba,Cielo_Academic,时间变化较多,https://example.invalid/records/STU0122,已更新,否
+Liam441,西班牙,22,班课,Mia_Sales,Javier,Iris_Academic,,https://example.invalid/records/STU0123,已更新,否
+Nina_195,澳大利亚,26,单人私教,Leo_Sales,Raul（教务）,Iris_Academic,,https://example.invalid/records/STU0124,待更新,是
+Nina_145,美国,10,group class,Sofia_Sales,Alba,Iris_Academic,要求较严格,https://example.invalid/records/STU0125,已更新,否
+Lydia_114,加拿大,37,一对二,Sofia_Sales,Carmen（教务）,IrisAcademic,重视考试,https://example.invalid/records/STU0126,已更新,否
+Eric_046,德国,18,小班,SofiaSales,Elena,Iris_Academic,,https://example.invalid/records/STU0130,已更新,是
+Grace_337（教务）,德国,9,一对三,Sofia_Sales,Javier（教务）,CieloAcademic,,https://example.invalid/records/STU0131,已更新,否
+Elynn_123,德国,30,小班,Mia_Sales,Miguel,Iris_Academic,,https://example.invalid/records/STU0132,待更新,否
+Sofia_205,西班牙,9,班课,Sofia_Sales,Miguel,Iris_Academic,时间变化较多,https://example.invalid/records/STU0133,已更新,否
+Sofia_155,西班牙,28,一对二,LeoSales,Pilar,Iris_Academic,时间变化较多,https://example.invalid/records/STU0134,待更新,否
+Sarah_248,澳大利亚,24,私教,Leo_Sales,Alba,Iris_Academic,,https://example.invalid/records/STU0136,已更新,待确认
+Noah_178,中国,35,小班,Mia_Sales,Elena,IrisAcademic,重视考试,https://example.invalid/records/STU0137,待更新,否
+Lawrence_224,加拿大,27,小班,Mia_Sales（教务）,Sara,Iris_Academic,重视考试,https://example.invalid/records/STU0138,已更新,待确认
+Isabela_470,美国,25,一对二,Mia_Sales（教务）,Javier,Nora_Academic,要求较严格,https://example.invalid/records/STU0139,无需更新,否
+Ivy_139,新加坡,11,小班,Mia_Sales,Sara,Cielo_Academic,重视考试,https://example.invalid/records/STU0140,已更新,否
+Elva_413,美国,26,班课,SofiaSales,Javier,Iris_Academic,重视考试,https://example.invalid/records/STU0141,待更新,否
+Lucas_202,西班牙,38,group class,Mia_Sales（教务）,Miguel,Iris_Academic,要求较严格,https://example.invalid/records/STU0143,待更新,否
+Zoe_243,加拿大,29,group class,Leo_Sales,Pilar,CieloAcademic,时间变化较多,https://example.invalid/records/STU0144,已更新,否
+Mia_275,澳大利亚,28,小班,MiaSales,Pablo,Nora_Academic,沟通积极,https://example.invalid/records/STU0146,已更新,否
+Luis_053,新加坡,28,一对四,Mia_Sales,Pilar,Cielo_Academic,,https://example.invalid/records/STU0148,已更新,否
+Kevin397,西班牙,19,四人私教,Sofia_Sales,Javier,Iris_Academic,重视考试,https://example.invalid/records/STU0150,待更新,否
+Lucy_356（教务）,英国,31,小班,SofiaSales,Pilar,NoraAcademic,重视考试,https://example.invalid/records/STU0151,已更新,否
+Etta_271（教务）,德国,35,班课,Mia_Sales,Pilar,Cielo_Academic（教务）,,https://example.invalid/records/STU0152,无需更新,否
+Chloe_231,德国,41,双人私教,Sofia_Sales,Sandra,Nora_Academic,时间变化较多,https://example.invalid/records/STU0154,已更新,否
+Brian_409,新加坡,25,班课,SofiaSales,Sara,Cielo_Academic,,https://example.invalid/records/STU0155,待更新,是
+Lawrence_224,加拿大,27,小班,Mia_Sales（教务）,Sara,Iris_Academic,重视考试,https://example.invalid/records/STU0138,已更新,待确认
+Snow_119,加拿大,21,小班,Leo_Sales,Sara,IrisAcademic,沟通积极,https://example.invalid/records/STU0020,已更新,否
+Ava135,英国,8,group class,Sofia_Sales,Rocio,Iris_Academic,时间变化较多,https://example.invalid/records/STU0004,待更新,否
+Oscar336,德国,11,group class,Sofia_Sales（教务）,Daniel,Nora_Academic,沟通积极,https://example.invalid/records/STU0038,无需更新,否
+Nina_195,澳大利亚,26,私教,Leo_Sales,Raul（教务）,Iris_Academic,,https://example.invalid/records/STU0124,待更新,是
